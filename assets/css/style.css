@@ -235,5 +235,30 @@ footer {
 @media (max-width: 640px) {
     header {
         position: static;
+        width:640px;
+    }
+
+    .name {
+        float: none;
+        width: 100%;
+        display:block;`
+    }
+
+    ul {
+        float:none;
+        display: block;
+    }
+
+    #profilepicture {
+        float: none;
+    }
+
+    .main {
+        width: 600px;
+        line-height: 100%;
+    }
+    
+    p{
+        font-size: 10px;
     }
 }
