@@ -70,7 +70,6 @@ h2 {
 /*Contact*/
 input {
     width:100%;
-
 }
 
 textarea {
@@ -95,10 +94,6 @@ textarea {
 /*Portfolio section*/
 .portfolio {
     /* min-height: "800px" */
-}
-
-#top {
-
 }
 
 #topleft{
@@ -147,10 +142,6 @@ textarea {
     bottom:80px;
 }
 
-#middle {
-
-}
-
 #middleleft {
     height:200px;
     width:200px;
@@ -197,10 +188,6 @@ textarea {
     padding:10px;
 }
 
-#bottom {
-
-}
-
 #bottomleft{
     height:200px;
     width:200px;
@@ -243,4 +230,10 @@ footer {
 }
 
 
-/*Media Screens - Responsiveness*/ 
+/*Media Queries - Responsiveness*/ 
+
+@media (max-width: 640px) {
+    header {
+        position: static;
+    }
+}
